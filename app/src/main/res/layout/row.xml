@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/parent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/rImageView1"
+            android:layout_width="100dp"
+            android:layout_height="150dp"/>
+
+        <TextView
+            android:id="@+id/rTitleTv1"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test"
+            android:layout_marginLeft="150dp" />
+
+        <TextView
+            android:id="@+id/rAutore1"
+            android:layout_width="match_parent"
+            android:text="Test"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_below="@id/rTitleTv1"/>
+
+        <TextView
+            android:id="@+id/rDescriptionTv1"
+            android:layout_width="match_parent"
+            android:text="Test"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rAutore1"
+            android:layout_marginLeft="150dp"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/textViewOptions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:text="&#8942;"
+            android:textAppearance="?android:textAppearanceLarge" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">BookReminder</string>
+    <string name="title_home">Miei Libri</string>
+    <string name="title_dashboard">Cerca</string>
+    <string name="title_notifications">Profilo</string>
+
+    //Register Login String
+    <string name="login">Already Registered? Login</string>
+    <string name="register">Register Here</string>
+    <string name="minimum_password">Password troppo corta, minimo 6 caratteri!</string>
+    <string name="auth_failed">Login fallito, controlla email o password o registrati</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Nome</string>
+    <string name="btn_login">Entra</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Indietro]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Password Dimenticata?</string>
+    <string name="forgot_password_msg">Abbiamo bisogno solo della tua email per inviarti le istruzioni per cambiare la password.</string>
+
+</resources>

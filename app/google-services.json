@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "596127083379",
+    "firebase_url": "https://bookreminder-2ce7d.firebaseio.com",
+    "project_id": "bookreminder-2ce7d",
+    "storage_bucket": "bookreminder-2ce7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596127083379:android:7d86e85ac074632205b306",
+        "android_client_info": {
+          "package_name": "com.example.bookreminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596127083379-6haqq41allk01n1bmdptt17ng28n001v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookreminder",
+            "certificate_hash": "778d0a69d19dc8bceecfbd5f01a64e0ee0ad7f4b"
+          }
+        },
+        {
+          "client_id": "596127083379-c11k38hf9a6nil57jfj9llnkjm06hf22.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl6OA476Pzs_W3Y66dZaJfGDoWi-jkVBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596127083379-c11k38hf9a6nil57jfj9llnkjm06hf22.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

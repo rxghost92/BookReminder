@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/registerTx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:layout_marginBottom="30dp"
+        android:text="@string/register"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/loginTx"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/registerTx"
+        android:layout_marginBottom="55dp"
+        android:gravity="bottom|center"
+        android:text="@string/login"
+        android:textSize="15dp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
